@@ -7,3 +7,5 @@
 
 Lembre-se de que um README bem elaborado não apenas torna o projeto mais acessível, mas também ajuda novos integrantes, expões padrões e sua organização. Invista tempo na criação de um README informativo e organizado para maximizar o valor do projeto em que você atual.
 </p>
+
+![Badge](https://img.shields.io/badge/README-%237159c1?style=for-the-badge&logo=ghost)
