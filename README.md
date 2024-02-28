@@ -57,25 +57,25 @@ $ dotnet run --project src/adapter/provider/meu-projeto-api/meu-projeto-api.cspr
 <p id="mapaprojeto" align="left">Abaixo segue a estrutura de pastas e suas definições:</p>
  
 ```bash
-├── src					                // Pasta raiz com a estrutura do projeto
-│  └── Adapter                          // Pasta para criar os serviços de comunicação / Ports & Adpters
-│       └── Provider                   	// Pasta com o projeto de API
+├── src					                      // Pasta raiz com a estrutura do projeto
+│  └── Adapter                        // Pasta para criar os serviços de comunicação / Ports & Adpters
+│       └── Provider                  // Pasta com o projeto de API
 │   └── Core                         	// Pasta com os princípais serviços do projeto
-│       └── Application                 // Pasta com o projeto para o mapeamento das entidades entre domain e serviços
+│       └── Application               // Pasta com o projeto para o mapeamento das entidades entre domain e serviços
 │          └── Mapper                	// Pasta com os mappers entre viewmodel e entidade
-│          └── ViewModel                // Pasta com os objetos de ViewModel / DTO
+│          └── ViewModel              // Pasta com os objetos de ViewModel / DTO
 │       └── Domain                  	// Pasta com organização das entidades Domínio do projeto
-│          └── Interfaces               // Pasta com os contratos expostos pelo Domínio
+│          └── Interfaces             // Pasta com os contratos expostos pelo Domínio
 │          └── Models                	// Pasta com organização das Entidades e Serviços usando CQRS
-│          	└── Commands                // Pasta com os comandos e handler CQRS
-│          	└── Entities                // Pasta com entidades
-│          	└── Events                  // Pasta com os eventos
+│          	└── Commands              // Pasta com os comandos e handler CQRS
+│          	└── Entities              // Pasta com entidades
+│          	└── Events                // Pasta com os eventos
 │          └── Query                	// Pasta com as querys e handler CQRS
-│   └── Infrastructure                  // Pasta com projeto de infrastructure e configurações de acesso a banco
-│       └── Mappings                   	// Pasta com Mappings usando fluent das entidades para o banco
-│       └── Migrations                  // Pasta com as Migrations aplicadas / a serem aplicadas
-│       └── Repository                  // Pasta com contexto e configuração do objeto de repository das entidades
-├── tests				                // Pasta com projeto de testes unitários do microserviço
+│   └── Infrastructure                // Pasta com projeto de infrastructure e configurações de acesso a banco
+│       └── Mappings                  // Pasta com Mappings usando fluent das entidades para o banco
+│       └── Migrations                // Pasta com as Migrations aplicadas / a serem aplicadas
+│       └── Repository                // Pasta com contexto e configuração do objeto de repository das entidades
+├── tests				                      // Pasta com projeto de testes unitários do microserviço
 ```
 ### 🛠 Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
