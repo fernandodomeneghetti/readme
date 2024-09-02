@@ -3,6 +3,7 @@
 # Projeto de Documentação
 
 ## :memo: Descrição do Projeto
+
 <p id="descricaoprojeto" align="left">Um arquivo README é uma parte essencial de qualquer projeto de software, oferecendo informações cruciais para desenvolvedores, colaboradores, PO's entre outros. Ele atua como um guia seja incial para entender o projeto, sua finalidade e como utilizá-lo. Neste guia, discutiremos como criar ou melhorar a documentação em seu projeto, abordando cada seção considerada necessária do arquivo README de maneira clara e eficaz.
 
 Lembre-se de que um README bem elaborado não apenas torna o projeto mais acessível, mas também ajuda novos integrantes, expões padrões e sua organização. Invista tempo na criação de um README informativo e organizado para maximizar o valor do projeto em que você atual.
@@ -15,11 +16,12 @@ Lembre-se de que um README bem elaborado não apenas torna o projeto mais acess�
 <ul id="tabelaconteudo" align="left">
   <li><a href="#descricaoprojeto">Descrição do Projeto</a></li>
   <li><a href="#statusprojeto">Status do Projeto</a></li>
-  <li><a href="#tabelaconteudo">Tabela de Conteúdo</a></li>
+  <li><a href="#mapaprojeto">Mapa do Projeto</a></li>
   <li><a href="#tecnologias">Tecnologias</a></li>
 </ul>
 
 ## :rocket: Status do Projeto
+
 <h4 id="statusprojeto" align="left"> 
     Em construção... 
 </h4>
@@ -54,6 +56,7 @@ $ dotnet run --project src/adapter/provider/meu-projeto-api/meu-projeto-api.cspr
 # O servidor inciará na porta:8080 - acesse <http://localhost:8080>
 ```
 ### :globe_with_meridians: Mapa do Projeto
+
 <p id="mapaprojeto" align="left">Abaixo segue a estrutura de pastas e suas definições:</p>
  
 ```bash
@@ -77,6 +80,8 @@ $ dotnet run --project src/adapter/provider/meu-projeto-api/meu-projeto-api.cspr
 │       └── Repository              // Pasta com contexto e configuração do objeto de repository das entidades
 ├── tests				            // Pasta com projeto de testes unitários do microserviço
 ```
+<p id="tecnologia"></p>
+
 ### 🛠 Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
 
