@@ -80,7 +80,8 @@ $ dotnet run --project src/adapter/provider/meu-projeto-api/meu-projeto-api.cspr
 │       └── Repository              // Pasta com contexto e configuração do objeto de repository das entidades
 ├── tests				            // Pasta com projeto de testes unitários do microserviço
 ```
-<p id="tecnologia"></p>
+
+<p id="tecnologias"></p>
 
 ### 🛠 Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
